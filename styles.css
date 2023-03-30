@@ -1,0 +1,161 @@
+body {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    margin-left: 5%;
+    margin-right: 5%;
+    font-family: 'Arima', cursive, serif;
+    background-color: #E8E7E8;
+}
+
+/* styling for logo */
+header > img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 200px;
+}
+
+/* styling for navbar */
+nav ul {
+    text-align: center;
+    list-style: none;
+    border: 1px #876d26;
+    border-radius: 5px;
+    padding: 10px 0px;
+    background-color: #26877F;
+    
+}
+
+nav li {
+    display: inline-block;
+    font-size: 1.5rem;
+    margin-left: 1.5rem;
+}
+
+nav a {
+   text-decoration: none; 
+   color: #fff;
+}
+
+/* styling for main area */
+section {
+    display: flex;
+    margin-bottom: 3rem;
+}
+
+/* styling for banner row */
+#banner {
+    width: 100%;
+    height: 50vh;
+    opacity: .7;
+}
+.promotional-content {
+    position: relative;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.9);
+}
+.promotional-content p {
+    color: white;
+    font-size: 24px;
+    background: rgba(184,214,41,0.4);
+}
+.separator {
+    font-size: 38px;
+    color: #87265a;
+    font-weight: bold;
+}
+.promotional-content h2 {
+    color: red;
+    background: rgba(255, 255, 255, 0.5);
+    text-align: center;
+    padding: 10px;
+}
+
+/* text overlay within banner image */
+.top-left {
+    position: absolute;
+    top: 8px;
+    left: 16px;
+    text-align: justify;
+}
+
+.bottom-left {
+    position: absolute;
+    bottom:6px;
+    left: 16px;
+}
+
+.bottom-right {
+    position: absolute;
+    bottom: 8px;
+    right: 0px;
+}
+
+
+/* styling for main content area */
+article {
+    flex: 1;
+}
+
+article h2 { 
+    text-align: center;
+    color: #87265a;
+}
+
+.featured-items {
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 5rem;
+    background: rgba(135, 109, 38, 0.5);
+}
+
+.reasons-to-choose li{
+    padding: 5px;
+}
+
+.featured-img {
+    width: 80%;
+    margin: 0 10%;
+}
+
+.featured-items p {
+    margin-left: 10px;
+    padding: 0 5px;
+}
+
+.btn {
+    text-align: center;
+}
+
+.btn button {
+    border: 2px solid #876d26;
+    border-radius: 5px;
+    padding: 20px;
+    width: 250px;
+    background-color: #26877F;
+    color: #fff;
+    font-family: 'Arima', cursive;
+    font-size: 18px;
+    text-align: center;
+}
+
+.btn button:hover {
+    background: #fff;
+    color:#26877F;
+    border: 3px solid #87265a;
+}
+
+/* styling for footer */
+footer {
+    display: flex;
+    background-color: #876d26;
+}
+
+footer div {
+    flex: 1;
+    margin-left: 5%;
+}
+.copy-write {
+    text-align: center;
+    padding-top: 50px;
+    color: #fff;
+}
