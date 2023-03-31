@@ -168,3 +168,32 @@ footer div {
     padding-top: 50px;
     color: #fff;
 }
+@media screen and (max-width: 700px) {
+    .featured-items {
+        flex: 100%;
+        border-radius: 3px;
+        margin-bottom: 10px;
+    }
+    .promotional-content h2 {
+        font-size: 24px;
+    }
+    .bottom-left {
+        display: none;
+    }
+    .services{
+        display: block;
+    }
+    footer {
+        display: block;
+    }
+    .small-logo {
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        text-align: center;
+    }
+    nav ul {
+        padding: 0;
+        text-align: justify;
+    }
+  }
